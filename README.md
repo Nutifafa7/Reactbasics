@@ -48,21 +48,22 @@ This project showcases the following React components:
 
 ## 📂 Project Structure
 src/
-│── App.jsx
-│── Header.jsx
-│── Footer.jsx
-│── Card.jsx
-│── Button.jsx
-│── Counter.jsx
-│── StopWatch.jsx
-│── UserGreeting.jsx
-│── Student.jsx
-│── List.jsx
-│── ColorPicker.jsx
-│── Fav.jsx
-│── Certificate.jsx
-│── comp.jsx
-│── MyComponent.jsx
+├── App.jsx
+├── Header.jsx
+├── Footer.jsx
+├── Card.jsx
+├── Button.jsx
+├── Counter.jsx
+├── StopWatch.jsx
+├── UserGreeting.jsx
+├── Student.jsx
+├── List.jsx
+├── ColorPicker.jsx
+├── Fav.jsx
+├── Certificate.jsx
+├── comp.jsx
+└── MyComponent.jsx
+
 
 ---
 
