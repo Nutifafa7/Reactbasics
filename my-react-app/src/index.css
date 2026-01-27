@@ -1,0 +1,555 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 8px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  padding:20px;
+  margin:10px;
+  text-align: center;
+  max-width: 250px;
+  display:inline-block;
+}
+.card .card-image{
+  max-width:60%;
+  height:auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.card .card-title{
+  font-size: 1.5em;
+  margin: 10px 0;
+  color:#1a1a1a
+}
+.card .card-description{
+  font-family: Arial, sans-serif;
+  color:hsl(0, 0%, 30%);
+}
+.button{
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.student{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: darkblue;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px;
+}
+.student p{
+  margin: 0;
+}
+.welcome-message{
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: green;
+  padding: 10px;
+  border-radius: 8px;
+  margin:0;
+}
+.login-prompt{
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: red;
+  padding: 10px;
+  border-radius: 8px;
+  margin:0;
+}
+.list-category{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;;
+  color: rgb(60, 0, 100);
+  margin: 10px 0;
+  text-align: center;
+  border: 3px solid purple;
+  background-color: lavender;
+}
+.list-category li{
+  font-size: 2em;
+  color:#1a1a1a;
+  text-align: center;
+  list-style-type: square;
+  padding-left: 20px;
+}
+.list-items li:hover{
+  color: purple;
+  cursor: pointer;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background: #f5f7fa;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.count-display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.counter-button {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4f46e5;
+  color: #ffffff;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.counter-button:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}
+
+.counter-button:active {
+  transform: translateY(0);
+}
+
+.counter-button:nth-child(2) {
+  background: #ef4444; 
+}
+
+.counter-button:nth-child(3) {
+  background: #6b7280;
+}
+
+.counter-button:nth-child(4) {
+  background: #22c55e; 
+}
+
+.counter-button:nth-child(2):hover {
+  background: #dc2626;
+}
+
+.counter-button:nth-child(3):hover {
+  background: #4b5563;
+}
+
+.counter-button:nth-child(4):hover {
+  background: #16a34a;
+}
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color-display {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: 0.25s ease;
+}
+.color-display p {
+  color: #382c2c;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.car-container {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 12px;
+  background: #f8fafc;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.car-container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.car-container input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-container input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+.car-container input::placeholder {
+  color: #9ca3af;
+}
+.stopwatch {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Time display */
+.display {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+/* Raw milliseconds text */
+.controls p {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 15px;
+}
+
+/* Button container */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Common button styles */
+.controls button {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+/* Start button */
+.start-button {
+  background: #22c55e;
+}
+
+.start-button:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+}
+
+/* Stop button */
+.stop-button {
+  background: #ef4444;
+}
+
+.stop-button:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+}
+
+/* Reset button */
+.reset-button {
+  background: #6366f1;
+}
+
+.reset-button:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+}
+
+/* Button click effect */
+.controls button:active {
+  transform: translateY(0);
+}
+/* ===============================
+   Certificate Component
+================================ */
+.certificate-container {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 30px 28px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+}
+
+/* Heading */
+.certificate-container h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+/* List */
+.certificate-container ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/* List items */
+.certificate-container li {
+  background: #eef2ff;
+  color: #1e3a8a;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+/* Hover effect (delete hint) */
+.certificate-container li:hover {
+  background: #fee2e2;
+  color: #991b1b;
+  transform: translateX(6px);
+}
+
+/* Delete text on hover */
+.certificate-container li::after {
+  content: "✕ Click to remove";
+  position: absolute;
+  right: 14px;
+  font-size: 0.75rem;
+  color: #b91c1c;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.certificate-container li:hover::after {
+  opacity: 1;
+}
+
+/* Input */
+.certificate-container input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 0.95rem;
+  margin-bottom: 14px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-container input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+/* Button */
+.certificate-container button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certificate-container button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+}
+
+.certificate-container button:active {
+  transform: translateY(0);
+}
+/* ===============================
+   Form Container
+================================ */
+.comp-container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 30px 32px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* ===============================
+   Inputs, Textarea, Select
+================================ */
+.comp-container input[type="text"],
+.comp-container input[type="number"],
+.comp-container textarea,
+.comp-container select {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.comp-container textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.comp-container input:focus,
+.comp-container textarea:focus,
+.comp-container select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+/* ===============================
+   Output Text (Live Preview)
+================================ */
+.comp-container p {
+  margin: 6px 0 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+/* ===============================
+   Radio Buttons
+================================ */
+.comp-container label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #1f2937;
+  cursor: pointer;
+}
+
+.comp-container input[type="radio"] {
+  accent-color: #6366f1;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* ===============================
+   Section Spacing
+================================ */
+.comp-container > *:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+/* ===============================
+   Mobile Friendly
+================================ */
+@media (max-width: 480px) {
+  .comp-container {
+    padding: 24px 20px;
+  }
+}
