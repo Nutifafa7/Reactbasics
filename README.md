@@ -64,10 +64,14 @@ src/
 │── comp.jsx
 │── MyComponent.jsx
 
+---
+
 🧠 What This Project Is For
 Learning React fundamentals
 Practicing component-based design
 Understanding props, state & rendering
 Building confidence before advanced React topics
+
+---
 
 ⭐ If you found this project helpful, consider starring the repository!
